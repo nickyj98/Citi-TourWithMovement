@@ -20,6 +20,7 @@
 		3BB1FE021F7C8413001224EA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1FE011F7C8413001224EA /* QuartzCore.framework */; };
 		3BB1FE041F7C841F001224EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1FE031F7C841F001224EA /* CoreGraphics.framework */; };
 		3BB1FE061F7C8426001224EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1FE051F7C8426001224EA /* Foundation.framework */; };
+		3BB1FE0C1F7C9398001224EA /* centre-for-it-innovation-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BB1FE0B1F7C9398001224EA /* centre-for-it-innovation-logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		3BB1FE011F7C8413001224EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3BB1FE031F7C841F001224EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3BB1FE051F7C8426001224EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BB1FE0B1F7C9398001224EA /* centre-for-it-innovation-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "centre-for-it-innovation-logo.jpg"; path = "../../../../Downloads/centre-for-it-innovation-logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				3BB1FDD51F7C83E4001224EA /* LaunchScreen.storyboard */,
 				3BB1FDD81F7C83E4001224EA /* Info.plist */,
 				3BB1FDD91F7C83E4001224EA /* main.m */,
+				3BB1FE0A1F7C932A001224EA /* Supporting Files */,
 			);
 			path = "Citi Tour";
 			sourceTree = "<group>";
@@ -158,6 +161,15 @@
 				3BB1FDFD1F7C83F9001224EA /* AVFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BB1FE0A1F7C932A001224EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BB1FE0B1F7C9398001224EA /* centre-for-it-innovation-logo.jpg */,
+			);
+			name = "Supporting Files";
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BB1FDD71F7C83E4001224EA /* LaunchScreen.storyboard in Resources */,
+				3BB1FE0C1F7C9398001224EA /* centre-for-it-innovation-logo.jpg in Resources */,
 				3BB1FDD41F7C83E4001224EA /* Assets.xcassets in Resources */,
 				3BB1FDD21F7C83E4001224EA /* Main.storyboard in Resources */,
 			);

@@ -84,23 +84,32 @@ static NSString * BCP47LanguageCodeForString(NSString *string) {
     return BCP47LanguageCodeFromISO681LanguageCode(ISO681LanguageCode);
 }
 
+UIImageView *TourImage;
+
 @interface ViewController () <AVSpeechSynthesizerDelegate>
 @property (readwrite, nonatomic, copy) NSString *utteranceString;
 @property (readwrite, nonatomic, strong) AVSpeechSynthesizer *speechSynthesizer;
+
 @end
 
 @implementation ViewController
+
+@synthesize Image;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.speechSynthesizer = [[AVSpeechSynthesizer alloc] init];
     self.speechSynthesizer.delegate = self;
+    //[Image setImage:[UIImage imageNamed:@"centre-for-it-innovation-logo.jpg"]];
+    
     
 }
 
 - (IBAction)Welcome:(id)sender {
     //Set Image
+    
+    [Image setImage:[UIImage imageNamed:@"centre-for-it-innovation-logo.jpg"]];
     
     
     //read Text
