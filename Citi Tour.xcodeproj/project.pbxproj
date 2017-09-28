@@ -15,6 +15,11 @@
 		3BB1FDDA1F7C83E4001224EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDD91F7C83E4001224EA /* main.m */; };
 		3BB1FDE41F7C83E4001224EA /* Citi_TourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDE31F7C83E4001224EA /* Citi_TourTests.m */; };
 		3BB1FDEF1F7C83E4001224EA /* Citi_TourUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDEE1F7C83E4001224EA /* Citi_TourUITests.m */; };
+		3BB1FDFE1F7C83F9001224EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1FDFD1F7C83F9001224EA /* AVFoundation.framework */; };
+		3BB1FE001F7C8402001224EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1FDFF1F7C8402001224EA /* UIKit.framework */; };
+		3BB1FE021F7C8413001224EA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1FE011F7C8413001224EA /* QuartzCore.framework */; };
+		3BB1FE041F7C841F001224EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1FE031F7C841F001224EA /* CoreGraphics.framework */; };
+		3BB1FE061F7C8426001224EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1FE051F7C8426001224EA /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		3BB1FDEA1F7C83E4001224EA /* Citi TourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Citi TourUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB1FDEE1F7C83E4001224EA /* Citi_TourUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Citi_TourUITests.m; sourceTree = "<group>"; };
 		3BB1FDF01F7C83E4001224EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB1FDFD1F7C83F9001224EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3BB1FDFF1F7C8402001224EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BB1FE011F7C8413001224EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3BB1FE031F7C841F001224EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BB1FE051F7C8426001224EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB1FE061F7C8426001224EA /* Foundation.framework in Frameworks */,
+				3BB1FE041F7C841F001224EA /* CoreGraphics.framework in Frameworks */,
+				3BB1FE021F7C8413001224EA /* QuartzCore.framework in Frameworks */,
+				3BB1FE001F7C8402001224EA /* UIKit.framework in Frameworks */,
+				3BB1FDFE1F7C83F9001224EA /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,7 @@
 				3BB1FDE21F7C83E4001224EA /* Citi TourTests */,
 				3BB1FDED1F7C83E4001224EA /* Citi TourUITests */,
 				3BB1FDC81F7C83E4001224EA /* Products */,
+				3BB1FDFC1F7C83F9001224EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +146,18 @@
 				3BB1FDF01F7C83E4001224EA /* Info.plist */,
 			);
 			path = "Citi TourUITests";
+			sourceTree = "<group>";
+		};
+		3BB1FDFC1F7C83F9001224EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BB1FE051F7C8426001224EA /* Foundation.framework */,
+				3BB1FE031F7C841F001224EA /* CoreGraphics.framework */,
+				3BB1FE011F7C8413001224EA /* QuartzCore.framework */,
+				3BB1FDFF1F7C8402001224EA /* UIKit.framework */,
+				3BB1FDFD1F7C83F9001224EA /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,10 +459,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A63BC52AW3;
+				DEVELOPMENT_TEAM = 5Z74FPTMJ7;
 				INFOPLIST_FILE = "Citi Tour/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-Tour";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-Tour-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,10 +473,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A63BC52AW3;
+				DEVELOPMENT_TEAM = 5Z74FPTMJ7;
 				INFOPLIST_FILE = "Citi Tour/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-Tour";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-Tour-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
