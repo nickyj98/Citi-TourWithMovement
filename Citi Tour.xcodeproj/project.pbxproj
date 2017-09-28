@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BB1FDCC1F7C83E4001224EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDCB1F7C83E4001224EA /* AppDelegate.m */; };
+		3BB1FDCF1F7C83E4001224EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDCE1F7C83E4001224EA /* ViewController.m */; };
+		3BB1FDD21F7C83E4001224EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB1FDD01F7C83E4001224EA /* Main.storyboard */; };
+		3BB1FDD41F7C83E4001224EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB1FDD31F7C83E4001224EA /* Assets.xcassets */; };
+		3BB1FDD71F7C83E4001224EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB1FDD51F7C83E4001224EA /* LaunchScreen.storyboard */; };
+		3BB1FDDA1F7C83E4001224EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDD91F7C83E4001224EA /* main.m */; };
+		3BB1FDE41F7C83E4001224EA /* Citi_TourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDE31F7C83E4001224EA /* Citi_TourTests.m */; };
+		3BB1FDEF1F7C83E4001224EA /* Citi_TourUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDEE1F7C83E4001224EA /* Citi_TourUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BB1FDE01F7C83E4001224EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB1FDBF1F7C83E4001224EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB1FDC61F7C83E4001224EA;
+			remoteInfo = "Citi Tour";
+		};
+		3BB1FDEB1F7C83E4001224EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB1FDBF1F7C83E4001224EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB1FDC61F7C83E4001224EA;
+			remoteInfo = "Citi Tour";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BB1FDC71F7C83E4001224EA /* Citi Tour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citi Tour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB1FDCA1F7C83E4001224EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BB1FDCB1F7C83E4001224EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BB1FDCD1F7C83E4001224EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BB1FDCE1F7C83E4001224EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BB1FDD11F7C83E4001224EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BB1FDD31F7C83E4001224EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BB1FDD61F7C83E4001224EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BB1FDD81F7C83E4001224EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB1FDD91F7C83E4001224EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BB1FDDF1F7C83E4001224EA /* Citi TourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Citi TourTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB1FDE31F7C83E4001224EA /* Citi_TourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Citi_TourTests.m; sourceTree = "<group>"; };
+		3BB1FDE51F7C83E4001224EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB1FDEA1F7C83E4001224EA /* Citi TourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Citi TourUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB1FDEE1F7C83E4001224EA /* Citi_TourUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Citi_TourUITests.m; sourceTree = "<group>"; };
+		3BB1FDF01F7C83E4001224EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BB1FDC41F7C83E4001224EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB1FDDC1F7C83E4001224EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB1FDE71F7C83E4001224EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB1FDBE1F7C83E4001224EA = {
+			isa = PBXGroup;
+			children = (
+				3BB1FDC91F7C83E4001224EA /* Citi Tour */,
+				3BB1FDE21F7C83E4001224EA /* Citi TourTests */,
+				3BB1FDED1F7C83E4001224EA /* Citi TourUITests */,
+				3BB1FDC81F7C83E4001224EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BB1FDC81F7C83E4001224EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BB1FDC71F7C83E4001224EA /* Citi Tour.app */,
+				3BB1FDDF1F7C83E4001224EA /* Citi TourTests.xctest */,
+				3BB1FDEA1F7C83E4001224EA /* Citi TourUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BB1FDC91F7C83E4001224EA /* Citi Tour */ = {
+			isa = PBXGroup;
+			children = (
+				3BB1FDCA1F7C83E4001224EA /* AppDelegate.h */,
+				3BB1FDCB1F7C83E4001224EA /* AppDelegate.m */,
+				3BB1FDCD1F7C83E4001224EA /* ViewController.h */,
+				3BB1FDCE1F7C83E4001224EA /* ViewController.m */,
+				3BB1FDD01F7C83E4001224EA /* Main.storyboard */,
+				3BB1FDD31F7C83E4001224EA /* Assets.xcassets */,
+				3BB1FDD51F7C83E4001224EA /* LaunchScreen.storyboard */,
+				3BB1FDD81F7C83E4001224EA /* Info.plist */,
+				3BB1FDD91F7C83E4001224EA /* main.m */,
+			);
+			path = "Citi Tour";
+			sourceTree = "<group>";
+		};
+		3BB1FDE21F7C83E4001224EA /* Citi TourTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BB1FDE31F7C83E4001224EA /* Citi_TourTests.m */,
+				3BB1FDE51F7C83E4001224EA /* Info.plist */,
+			);
+			path = "Citi TourTests";
+			sourceTree = "<group>";
+		};
+		3BB1FDED1F7C83E4001224EA /* Citi TourUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BB1FDEE1F7C83E4001224EA /* Citi_TourUITests.m */,
+				3BB1FDF01F7C83E4001224EA /* Info.plist */,
+			);
+			path = "Citi TourUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BB1FDC61F7C83E4001224EA /* Citi Tour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB1FDF31F7C83E4001224EA /* Build configuration list for PBXNativeTarget "Citi Tour" */;
+			buildPhases = (
+				3BB1FDC31F7C83E4001224EA /* Sources */,
+				3BB1FDC41F7C83E4001224EA /* Frameworks */,
+				3BB1FDC51F7C83E4001224EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Citi Tour";
+			productName = "Citi Tour";
+			productReference = 3BB1FDC71F7C83E4001224EA /* Citi Tour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BB1FDDE1F7C83E4001224EA /* Citi TourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB1FDF61F7C83E4001224EA /* Build configuration list for PBXNativeTarget "Citi TourTests" */;
+			buildPhases = (
+				3BB1FDDB1F7C83E4001224EA /* Sources */,
+				3BB1FDDC1F7C83E4001224EA /* Frameworks */,
+				3BB1FDDD1F7C83E4001224EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB1FDE11F7C83E4001224EA /* PBXTargetDependency */,
+			);
+			name = "Citi TourTests";
+			productName = "Citi TourTests";
+			productReference = 3BB1FDDF1F7C83E4001224EA /* Citi TourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BB1FDE91F7C83E4001224EA /* Citi TourUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB1FDF91F7C83E4001224EA /* Build configuration list for PBXNativeTarget "Citi TourUITests" */;
+			buildPhases = (
+				3BB1FDE61F7C83E4001224EA /* Sources */,
+				3BB1FDE71F7C83E4001224EA /* Frameworks */,
+				3BB1FDE81F7C83E4001224EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB1FDEC1F7C83E4001224EA /* PBXTargetDependency */,
+			);
+			name = "Citi TourUITests";
+			productName = "Citi TourUITests";
+			productReference = 3BB1FDEA1F7C83E4001224EA /* Citi TourUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BB1FDBF1F7C83E4001224EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "FSP NYP";
+				TargetAttributes = {
+					3BB1FDC61F7C83E4001224EA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3BB1FDDE1F7C83E4001224EA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3BB1FDC61F7C83E4001224EA;
+					};
+					3BB1FDE91F7C83E4001224EA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3BB1FDC61F7C83E4001224EA;
+					};
+				};
+			};
+			buildConfigurationList = 3BB1FDC21F7C83E4001224EA /* Build configuration list for PBXProject "Citi Tour" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BB1FDBE1F7C83E4001224EA;
+			productRefGroup = 3BB1FDC81F7C83E4001224EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BB1FDC61F7C83E4001224EA /* Citi Tour */,
+				3BB1FDDE1F7C83E4001224EA /* Citi TourTests */,
+				3BB1FDE91F7C83E4001224EA /* Citi TourUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BB1FDC51F7C83E4001224EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB1FDD71F7C83E4001224EA /* LaunchScreen.storyboard in Resources */,
+				3BB1FDD41F7C83E4001224EA /* Assets.xcassets in Resources */,
+				3BB1FDD21F7C83E4001224EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB1FDDD1F7C83E4001224EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB1FDE81F7C83E4001224EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BB1FDC31F7C83E4001224EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB1FDCF1F7C83E4001224EA /* ViewController.m in Sources */,
+				3BB1FDDA1F7C83E4001224EA /* main.m in Sources */,
+				3BB1FDCC1F7C83E4001224EA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB1FDDB1F7C83E4001224EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB1FDE41F7C83E4001224EA /* Citi_TourTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB1FDE61F7C83E4001224EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB1FDEF1F7C83E4001224EA /* Citi_TourUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BB1FDE11F7C83E4001224EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BB1FDC61F7C83E4001224EA /* Citi Tour */;
+			targetProxy = 3BB1FDE01F7C83E4001224EA /* PBXContainerItemProxy */;
+		};
+		3BB1FDEC1F7C83E4001224EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BB1FDC61F7C83E4001224EA /* Citi Tour */;
+			targetProxy = 3BB1FDEB1F7C83E4001224EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BB1FDD01F7C83E4001224EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB1FDD11F7C83E4001224EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BB1FDD51F7C83E4001224EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB1FDD61F7C83E4001224EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BB1FDF11F7C83E4001224EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BB1FDF21F7C83E4001224EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BB1FDF41F7C83E4001224EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A63BC52AW3;
+				INFOPLIST_FILE = "Citi Tour/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-Tour";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BB1FDF51F7C83E4001224EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A63BC52AW3;
+				INFOPLIST_FILE = "Citi Tour/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-Tour";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BB1FDF71F7C83E4001224EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A63BC52AW3;
+				INFOPLIST_FILE = "Citi TourTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-TourTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Citi Tour.app/Citi Tour";
+			};
+			name = Debug;
+		};
+		3BB1FDF81F7C83E4001224EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A63BC52AW3;
+				INFOPLIST_FILE = "Citi TourTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-TourTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Citi Tour.app/Citi Tour";
+			};
+			name = Release;
+		};
+		3BB1FDFA1F7C83E4001224EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A63BC52AW3;
+				INFOPLIST_FILE = "Citi TourUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-TourUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Citi Tour";
+			};
+			name = Debug;
+		};
+		3BB1FDFB1F7C83E4001224EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A63BC52AW3;
+				INFOPLIST_FILE = "Citi TourUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-TourUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Citi Tour";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BB1FDC21F7C83E4001224EA /* Build configuration list for PBXProject "Citi Tour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB1FDF11F7C83E4001224EA /* Debug */,
+				3BB1FDF21F7C83E4001224EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB1FDF31F7C83E4001224EA /* Build configuration list for PBXNativeTarget "Citi Tour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB1FDF41F7C83E4001224EA /* Debug */,
+				3BB1FDF51F7C83E4001224EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB1FDF61F7C83E4001224EA /* Build configuration list for PBXNativeTarget "Citi TourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB1FDF71F7C83E4001224EA /* Debug */,
+				3BB1FDF81F7C83E4001224EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB1FDF91F7C83E4001224EA /* Build configuration list for PBXNativeTarget "Citi TourUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB1FDFA1F7C83E4001224EA /* Debug */,
+				3BB1FDFB1F7C83E4001224EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BB1FDBF1F7C83E4001224EA /* Project object */;
+}
