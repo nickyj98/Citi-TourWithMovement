@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B184E4F1F7E2685002C5204 /* DoubleControlSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B184E4E1F7E2685002C5204 /* DoubleControlSDK.framework */; };
+		3B184E551F7E29CA002C5204 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B184E541F7E29CA002C5204 /* Default-568h@2x.png */; };
 		3BB1FDCC1F7C83E4001224EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDCB1F7C83E4001224EA /* AppDelegate.m */; };
 		3BB1FDCF1F7C83E4001224EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDCE1F7C83E4001224EA /* ViewController.m */; };
 		3BB1FDD21F7C83E4001224EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB1FDD01F7C83E4001224EA /* Main.storyboard */; };
@@ -42,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B184E4E1F7E2685002C5204 /* DoubleControlSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DoubleControlSDK.framework; sourceTree = "<group>"; };
+		3B184E541F7E29CA002C5204 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3BB1FDC71F7C83E4001224EA /* Citi Tour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citi Tour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB1FDCA1F7C83E4001224EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BB1FDCB1F7C83E4001224EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B184E4F1F7E2685002C5204 /* DoubleControlSDK.framework in Frameworks */,
 				3BB1FE061F7C8426001224EA /* Foundation.framework in Frameworks */,
 				3BB1FE041F7C841F001224EA /* CoreGraphics.framework in Frameworks */,
 				3BB1FE021F7C8413001224EA /* QuartzCore.framework in Frameworks */,
@@ -101,6 +100,7 @@
 		3BB1FDBE1F7C83E4001224EA = {
 			isa = PBXGroup;
 			children = (
+				3B184E541F7E29CA002C5204 /* Default-568h@2x.png */,
 				3BB1FDC91F7C83E4001224EA /* Citi Tour */,
 				3BB1FDE21F7C83E4001224EA /* Citi TourTests */,
 				3BB1FDED1F7C83E4001224EA /* Citi TourUITests */,
@@ -157,7 +157,6 @@
 		3BB1FDFC1F7C83F9001224EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3B184E4E1F7E2685002C5204 /* DoubleControlSDK.framework */,
 				3BB1FE051F7C8426001224EA /* Foundation.framework */,
 				3BB1FE031F7C841F001224EA /* CoreGraphics.framework */,
 				3BB1FE011F7C8413001224EA /* QuartzCore.framework */,
@@ -285,6 +284,7 @@
 				3BB1FDD71F7C83E4001224EA /* LaunchScreen.storyboard in Resources */,
 				3BB1FE0C1F7C9398001224EA /* centre-for-it-innovation-logo.jpg in Resources */,
 				3BB1FDD41F7C83E4001224EA /* Assets.xcassets in Resources */,
+				3B184E551F7E29CA002C5204 /* Default-568h@2x.png in Resources */,
 				3BB1FDD21F7C83E4001224EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +481,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Citi\\ Tour",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Citi\\ Tour",
 				);
 				INFOPLIST_FILE = "Citi Tour/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -500,6 +501,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Citi\\ Tour",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Citi\\ Tour",
 				);
 				INFOPLIST_FILE = "Citi Tour/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
