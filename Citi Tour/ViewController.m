@@ -101,7 +101,7 @@ UIImageView *TourImage;
     
     self.speechSynthesizer = [[AVSpeechSynthesizer alloc] init];
     self.speechSynthesizer.delegate = self;
-    //[Image setImage:[UIImage imageNamed:@"centre-for-it-innovation-logo.jpg"]];
+
     
     
 }
