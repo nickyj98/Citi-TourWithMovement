@@ -134,6 +134,11 @@ UIImageView *TourImage;
 
 
 - (IBAction)First:(id)sender {
+    //Set Image
+    
+     [Image setImage:[UIImage imageNamed:@"double-2-telepresence-robot_1.jpg"]];
+    
+    //read Text
     self.utteranceString = SpeechUtterancesByExhibit[FirstExhibit];
     self.Readtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
     

@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		3B184E6E1F81D3A0002C5204 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B184E6D1F81D3A0002C5204 /* ExternalAccessory.framework */; };
 		3B184E701F81D515002C5204 /* DoubleControlSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B184E6F1F81D514002C5204 /* DoubleControlSDK.framework */; };
+		3B184E721F81DFE4002C5204 /* double-2-telepresence-robot_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B184E711F81DFE4002C5204 /* double-2-telepresence-robot_1.jpg */; };
+		3B184E771F81ED15002C5204 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B184E731F81ED15002C5204 /* down.png */; };
+		3B184E781F81ED16002C5204 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B184E741F81ED15002C5204 /* up.png */; };
+		3B184E791F81ED16002C5204 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B184E751F81ED15002C5204 /* right.png */; };
+		3B184E7A1F81ED16002C5204 /* lefy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B184E761F81ED15002C5204 /* lefy.png */; };
 		3BB1FDCC1F7C83E4001224EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDCB1F7C83E4001224EA /* AppDelegate.m */; };
 		3BB1FDCF1F7C83E4001224EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDCE1F7C83E4001224EA /* ViewController.m */; };
 		3BB1FDD21F7C83E4001224EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB1FDD01F7C83E4001224EA /* Main.storyboard */; };
@@ -45,6 +50,11 @@
 /* Begin PBXFileReference section */
 		3B184E6D1F81D3A0002C5204 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		3B184E6F1F81D514002C5204 /* DoubleControlSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoubleControlSDK.framework; path = "Citi-Tour/DoubleControlSDK.framework"; sourceTree = "<group>"; };
+		3B184E711F81DFE4002C5204 /* double-2-telepresence-robot_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "double-2-telepresence-robot_1.jpg"; sourceTree = "<group>"; };
+		3B184E731F81ED15002C5204 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		3B184E741F81ED15002C5204 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		3B184E751F81ED15002C5204 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		3B184E761F81ED15002C5204 /* lefy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lefy.png; sourceTree = "<group>"; };
 		3BB1FDC71F7C83E4001224EA /* Citi Tour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citi Tour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB1FDCA1F7C83E4001224EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BB1FDCB1F7C83E4001224EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -174,6 +184,11 @@
 		3BB1FE0A1F7C932A001224EA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3B184E731F81ED15002C5204 /* down.png */,
+				3B184E761F81ED15002C5204 /* lefy.png */,
+				3B184E751F81ED15002C5204 /* right.png */,
+				3B184E741F81ED15002C5204 /* up.png */,
+				3B184E711F81DFE4002C5204 /* double-2-telepresence-robot_1.jpg */,
 				3BB1FE0B1F7C9398001224EA /* centre-for-it-innovation-logo.jpg */,
 			);
 			path = "Supporting Files";
@@ -285,10 +300,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B184E781F81ED16002C5204 /* up.png in Resources */,
 				3BB1FDD71F7C83E4001224EA /* LaunchScreen.storyboard in Resources */,
+				3B184E7A1F81ED16002C5204 /* lefy.png in Resources */,
+				3B184E791F81ED16002C5204 /* right.png in Resources */,
 				3BB1FE0C1F7C9398001224EA /* centre-for-it-innovation-logo.jpg in Resources */,
+				3B184E721F81DFE4002C5204 /* double-2-telepresence-robot_1.jpg in Resources */,
 				3BB1FDD41F7C83E4001224EA /* Assets.xcassets in Resources */,
 				3BB1FDD21F7C83E4001224EA /* Main.storyboard in Resources */,
+				3B184E771F81ED15002C5204 /* down.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
