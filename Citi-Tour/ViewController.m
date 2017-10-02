@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <DoubleControlSDK/DoubleControlSDK.h>
 @import AVFoundation;
 
 static NSString * BCP47LanguageCodeFromISO681LanguageCode(NSString *ISO681LanguageCode) {
@@ -75,7 +76,7 @@ typedef NS_ENUM(NSInteger, SpeechUtteranceLanguage) {
 
 NSString * const SpeechUtterancesByExhibit[] = {
     
-    [WelcomeMessage]     = @"Hello Everyone and Welcome to Citi Tour @ N Y P School Of Information Technology . We are Glad to have you with us today",
+    [WelcomeMessage]     = @"Hello Everyone and Welcome to Citi Tour @ N Y P ,School Of Information Technology . We are Glad to have you with us today",
     [FirstExhibit]       = @"This is the First Exhibit",
 };
 
@@ -86,7 +87,7 @@ static NSString * BCP47LanguageCodeForString(NSString *string) {
 
 UIImageView *TourImage;
 
-@interface ViewController () <AVSpeechSynthesizerDelegate>
+@interface ViewController () <AVSpeechSynthesizerDelegate,DRDoubleDelegate>
 @property (readwrite, nonatomic, copy) NSString *utteranceString;
 @property (readwrite, nonatomic, strong) AVSpeechSynthesizer *speechSynthesizer;
 
@@ -102,7 +103,9 @@ UIImageView *TourImage;
     self.speechSynthesizer = [[AVSpeechSynthesizer alloc] init];
     self.speechSynthesizer.delegate = self;
 
-    
+    //movement
+    [DRDouble sharedDouble].delegate = self;
+    NSLog(@"SDL Version: %@", kDoubleBasicSDKVersion);
     
 }
 

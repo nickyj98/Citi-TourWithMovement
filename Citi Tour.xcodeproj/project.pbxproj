@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B184E551F7E29CA002C5204 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B184E541F7E29CA002C5204 /* Default-568h@2x.png */; };
+		3B184E6E1F81D3A0002C5204 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B184E6D1F81D3A0002C5204 /* ExternalAccessory.framework */; };
+		3B184E701F81D515002C5204 /* DoubleControlSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B184E6F1F81D514002C5204 /* DoubleControlSDK.framework */; };
 		3BB1FDCC1F7C83E4001224EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDCB1F7C83E4001224EA /* AppDelegate.m */; };
 		3BB1FDCF1F7C83E4001224EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDCE1F7C83E4001224EA /* ViewController.m */; };
 		3BB1FDD21F7C83E4001224EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB1FDD01F7C83E4001224EA /* Main.storyboard */; };
@@ -42,7 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B184E541F7E29CA002C5204 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3B184E6D1F81D3A0002C5204 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		3B184E6F1F81D514002C5204 /* DoubleControlSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoubleControlSDK.framework; path = "Citi-Tour/DoubleControlSDK.framework"; sourceTree = "<group>"; };
 		3BB1FDC71F7C83E4001224EA /* Citi Tour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citi Tour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB1FDCA1F7C83E4001224EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BB1FDCB1F7C83E4001224EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,7 +66,7 @@
 		3BB1FE011F7C8413001224EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3BB1FE031F7C841F001224EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3BB1FE051F7C8426001224EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3BB1FE0B1F7C9398001224EA /* centre-for-it-innovation-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "centre-for-it-innovation-logo.jpg"; path = "../../../../Downloads/centre-for-it-innovation-logo.jpg"; sourceTree = "<group>"; };
+		3BB1FE0B1F7C9398001224EA /* centre-for-it-innovation-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "centre-for-it-innovation-logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +74,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B184E701F81D515002C5204 /* DoubleControlSDK.framework in Frameworks */,
 				3BB1FE061F7C8426001224EA /* Foundation.framework in Frameworks */,
 				3BB1FE041F7C841F001224EA /* CoreGraphics.framework in Frameworks */,
 				3BB1FE021F7C8413001224EA /* QuartzCore.framework in Frameworks */,
 				3BB1FE001F7C8402001224EA /* UIKit.framework in Frameworks */,
 				3BB1FDFE1F7C83F9001224EA /* AVFoundation.framework in Frameworks */,
+				3B184E6E1F81D3A0002C5204 /* ExternalAccessory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +104,7 @@
 		3BB1FDBE1F7C83E4001224EA = {
 			isa = PBXGroup;
 			children = (
-				3B184E541F7E29CA002C5204 /* Default-568h@2x.png */,
-				3BB1FDC91F7C83E4001224EA /* Citi Tour */,
+				3BB1FDC91F7C83E4001224EA /* Citi-Tour */,
 				3BB1FDE21F7C83E4001224EA /* Citi TourTests */,
 				3BB1FDED1F7C83E4001224EA /* Citi TourUITests */,
 				3BB1FDC81F7C83E4001224EA /* Products */,
@@ -119,7 +122,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3BB1FDC91F7C83E4001224EA /* Citi Tour */ = {
+		3BB1FDC91F7C83E4001224EA /* Citi-Tour */ = {
 			isa = PBXGroup;
 			children = (
 				3BB1FDCA1F7C83E4001224EA /* AppDelegate.h */,
@@ -133,7 +136,7 @@
 				3BB1FDD91F7C83E4001224EA /* main.m */,
 				3BB1FE0A1F7C932A001224EA /* Supporting Files */,
 			);
-			path = "Citi Tour";
+			path = "Citi-Tour";
 			sourceTree = "<group>";
 		};
 		3BB1FDE21F7C83E4001224EA /* Citi TourTests */ = {
@@ -157,6 +160,8 @@
 		3BB1FDFC1F7C83F9001224EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B184E6F1F81D514002C5204 /* DoubleControlSDK.framework */,
+				3B184E6D1F81D3A0002C5204 /* ExternalAccessory.framework */,
 				3BB1FE051F7C8426001224EA /* Foundation.framework */,
 				3BB1FE031F7C841F001224EA /* CoreGraphics.framework */,
 				3BB1FE011F7C8413001224EA /* QuartzCore.framework */,
@@ -171,8 +176,7 @@
 			children = (
 				3BB1FE0B1F7C9398001224EA /* centre-for-it-innovation-logo.jpg */,
 			);
-			name = "Supporting Files";
-			path = "New Group";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +288,6 @@
 				3BB1FDD71F7C83E4001224EA /* LaunchScreen.storyboard in Resources */,
 				3BB1FE0C1F7C9398001224EA /* centre-for-it-innovation-logo.jpg in Resources */,
 				3BB1FDD41F7C83E4001224EA /* Assets.xcassets in Resources */,
-				3B184E551F7E29CA002C5204 /* Default-568h@2x.png in Resources */,
 				3BB1FDD21F7C83E4001224EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,8 +402,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"$(PROJECT_DIR)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -454,8 +463,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"$(PROJECT_DIR)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -474,16 +489,16 @@
 		3BB1FDF41F7C83E4001224EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z74FPTMJ7;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Citi\\ Tour",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Citi\\ Tour",
+					"$(PROJECT_DIR)/Citi-Tour",
 				);
-				INFOPLIST_FILE = "Citi Tour/Info.plist";
+				INFOPLIST_FILE = "Citi-Tour/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-Tour-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -494,16 +509,16 @@
 		3BB1FDF51F7C83E4001224EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z74FPTMJ7;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Citi\\ Tour",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Citi\\ Tour",
+					"$(PROJECT_DIR)/Citi-Tour",
 				);
-				INFOPLIST_FILE = "Citi Tour/Info.plist";
+				INFOPLIST_FILE = "Citi-Tour/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-Tour-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,6 +532,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A63BC52AW3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Citi-Tour",
+				);
 				INFOPLIST_FILE = "Citi TourTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-TourTests";
@@ -532,6 +551,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A63BC52AW3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Citi-Tour",
+				);
 				INFOPLIST_FILE = "Citi TourTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-TourTests";
@@ -546,6 +569,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A63BC52AW3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Citi-Tour",
+				);
 				INFOPLIST_FILE = "Citi TourUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-TourUITests";
@@ -560,6 +587,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A63BC52AW3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Citi-Tour",
+				);
 				INFOPLIST_FILE = "Citi TourUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fps.Citi-TourUITests";
