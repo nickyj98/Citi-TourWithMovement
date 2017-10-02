@@ -38,7 +38,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fourth Exhibit"/>
                                 <connections>
-                                    <action selector="First:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qVf-mw-QUm"/>
+                                    <action selector="Fourth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kzm-Wt-gPz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IV3-3Y-cHE">
@@ -46,7 +46,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fifth Exhibit"/>
                                 <connections>
-                                    <action selector="First:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cu6-lZ-6KW"/>
+                                    <action selector="Fifth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wqP-TA-fVZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dc3-lT-SgE">
@@ -54,7 +54,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sixth Exhibit"/>
                                 <connections>
-                                    <action selector="First:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ggl-2Y-olA"/>
+                                    <action selector="Sixth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nHK-Js-Qaz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WoF-yw-Hzt">
@@ -62,7 +62,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Second Exhibit"/>
                                 <connections>
-                                    <action selector="First:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bdD-pv-ttg"/>
+                                    <action selector="Second:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jdk-C4-CDy"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5WR-k7-CQA">
@@ -73,18 +73,24 @@
                                 <rect key="frame" x="8" y="20" width="106" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Full Tour"/>
+                                <connections>
+                                    <action selector="FullTour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q3w-WA-gJm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsH-mo-eRJ">
                                 <rect key="frame" x="8" y="58" width="106" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Return to base"/>
+                                <connections>
+                                    <action selector="R2B:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vhx-hV-Nse"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wg-Yw-eMJ">
                                 <rect key="frame" x="481" y="20" width="90" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Third Exhibit"/>
                                 <connections>
-                                    <action selector="First:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rvY-DB-bb7"/>
+                                    <action selector="Third:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u3y-L0-AvX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ohe-Qk-Vhm">
@@ -92,7 +98,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Ending Message"/>
                                 <connections>
-                                    <action selector="First:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NR6-wh-Bwg"/>
+                                    <action selector="Ending:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5m-pS-5F7"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESq-6R-PZ4">
