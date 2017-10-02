@@ -150,7 +150,7 @@ UIImageView *TourImage;
     self.utteranceString = SpeechUtterancesByExhibit[FirstExhibit];
     self.Readtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
     
-    //self.TextReader.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
+    self.ReaderText.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
     
     AVSpeechUtterance *utterance = [[AVSpeechUtterance alloc] initWithString:self.utteranceString];
     NSLog(@"BCP-47 Language Code: %@", BCP47LanguageCodeForString(utterance.speechString));

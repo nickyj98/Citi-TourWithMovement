@@ -14,6 +14,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *Readtext;
 @property (weak, nonatomic) IBOutlet UIImageView *Image;
+@property (weak, nonatomic) IBOutlet UILabel *ReaderText;
 
 
 - (IBAction)FullTour:(id)sender;
