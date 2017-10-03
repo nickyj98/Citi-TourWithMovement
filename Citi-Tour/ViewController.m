@@ -123,9 +123,9 @@ UIImageView *TourImage;
     
     //read Text
     self.utteranceString = SpeechUtterancesByExhibit[WelcomeMessage];
-    self.Readtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
+    //self.Readtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
     
-    
+    self.Readingtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
     
     AVSpeechUtterance *utterance = [[AVSpeechUtterance alloc] initWithString:self.utteranceString];
     NSLog(@"BCP-47 Language Code: %@", BCP47LanguageCodeForString(utterance.speechString));
@@ -148,9 +148,9 @@ UIImageView *TourImage;
     
     //read Text
     self.utteranceString = SpeechUtterancesByExhibit[FirstExhibit];
-    self.Readtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
+    //self.Readtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
     
-    self.ReaderText.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
+    self.Readingtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
     
     AVSpeechUtterance *utterance = [[AVSpeechUtterance alloc] initWithString:self.utteranceString];
     NSLog(@"BCP-47 Language Code: %@", BCP47LanguageCodeForString(utterance.speechString));
@@ -195,6 +195,7 @@ willSpeakRangeOfSpeechString:(NSRange)characterRange
     NSMutableAttributedString *mutableAttributedString = [[NSMutableAttributedString alloc] initWithString:self.utteranceString];
     [mutableAttributedString addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:characterRange];
     self.Readtext.attributedText = mutableAttributedString;
+    self.Readingtext.attributedText = mutableAttributedString;
 }
 
 - (void)speechSynthesizer:(AVSpeechSynthesizer *)synthesizer
@@ -203,6 +204,7 @@ willSpeakRangeOfSpeechString:(NSRange)characterRange
     NSLog(@"%@ %@", [self class], NSStringFromSelector(_cmd));
     
     self.Readtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
+    self.Readingtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
 }
 
 - (void)speechSynthesizer:(AVSpeechSynthesizer *)synthesizer
@@ -211,6 +213,7 @@ willSpeakRangeOfSpeechString:(NSRange)characterRange
     NSLog(@"%@ %@", [self class], NSStringFromSelector(_cmd));
     
     self.Readtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
+    self.Readingtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
 }
 
 
