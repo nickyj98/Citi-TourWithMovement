@@ -10,6 +10,8 @@
 #import <DoubleControlSDK/DoubleControlSDK.h>
 @import AVFoundation;
 
+
+
 static NSString * BCP47LanguageCodeFromISO681LanguageCode(NSString *ISO681LanguageCode) {
     if ([ISO681LanguageCode isEqualToString:@"ar"]) {
         return @"ar-SA";
@@ -95,6 +97,7 @@ UIImageView *TourImage;
 @property (readwrite, nonatomic, copy) NSString *utteranceString;
 @property (readwrite, nonatomic, strong) AVSpeechSynthesizer *speechSynthesizer;
 
+
 @end
 
 @implementation ViewController
@@ -111,6 +114,21 @@ UIImageView *TourImage;
     [DRDouble sharedDouble].delegate = self;
     NSLog(@"SDL Version: %@", kDoubleBasicSDKVersion);
     
+}
+
+- (IBAction)poleup:(id)sender {
+}
+
+- (IBAction)polestop:(id)sender {
+}
+
+- (IBAction)poledown:(id)sender {
+}
+
+- (IBAction)park:(id)sender {
+}
+
+- (IBAction)deploy:(id)sender {
 }
 
 - (IBAction)FullTour:(id)sender {

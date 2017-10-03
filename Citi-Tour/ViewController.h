@@ -17,7 +17,25 @@
 @property (weak, nonatomic) IBOutlet UILabel *ReaderText;
 @property (weak, nonatomic) IBOutlet UITextView *Readingtext;
 
+//manual controls
+@property (weak, nonatomic) IBOutlet UILabel *ConnectionStatus;
+@property (weak, nonatomic) IBOutlet UILabel *ParkingStatus;
+@property (weak, nonatomic) IBOutlet UILabel *PlayStatus;
+@property (weak, nonatomic) IBOutlet UILabel *BatteryPercent;
+- (IBAction)poleup:(id)sender;
+- (IBAction)polestop:(id)sender;
+- (IBAction)poledown:(id)sender;
+- (IBAction)park:(id)sender;
+- (IBAction)deploy:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIButton *DriveRightButton;
+@property (weak, nonatomic) IBOutlet UIButton *DriveLeftButton;
+@property (weak, nonatomic) IBOutlet UIButton *DriveBackButton;
+@property (weak, nonatomic) IBOutlet UIButton *DriveFrontButton;
+
+
+
+//tour mode
 - (IBAction)FullTour:(id)sender;
 - (IBAction)R2B:(id)sender;
 
