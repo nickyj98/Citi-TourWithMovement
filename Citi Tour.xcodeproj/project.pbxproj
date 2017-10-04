@@ -15,7 +15,6 @@
 		3B184E791F81ED16002C5204 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B184E751F81ED15002C5204 /* right.png */; };
 		3B184E7A1F81ED16002C5204 /* lefy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B184E761F81ED15002C5204 /* lefy.png */; };
 		3B184E7C1F8336CF002C5204 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3B184E7B1F8336CF002C5204 /* images.jpeg */; };
-		3B184E831F8481C6002C5204 /* movementControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B184E811F8481C6002C5204 /* movementControllerViewController.m */; };
 		3BB1FDCC1F7C83E4001224EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDCB1F7C83E4001224EA /* AppDelegate.m */; };
 		3BB1FDCF1F7C83E4001224EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1FDCE1F7C83E4001224EA /* ViewController.m */; };
 		3BB1FDD21F7C83E4001224EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB1FDD01F7C83E4001224EA /* Main.storyboard */; };
@@ -58,8 +57,6 @@
 		3B184E751F81ED15002C5204 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
 		3B184E761F81ED15002C5204 /* lefy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lefy.png; sourceTree = "<group>"; };
 		3B184E7B1F8336CF002C5204 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
-		3B184E801F8481C6002C5204 /* movementControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = movementControllerViewController.h; sourceTree = "<group>"; };
-		3B184E811F8481C6002C5204 /* movementControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = movementControllerViewController.m; sourceTree = "<group>"; };
 		3BB1FDC71F7C83E4001224EA /* Citi Tour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citi Tour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB1FDCA1F7C83E4001224EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BB1FDCB1F7C83E4001224EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -149,8 +146,6 @@
 				3BB1FDD51F7C83E4001224EA /* LaunchScreen.storyboard */,
 				3BB1FDD81F7C83E4001224EA /* Info.plist */,
 				3BB1FDD91F7C83E4001224EA /* main.m */,
-				3B184E801F8481C6002C5204 /* movementControllerViewController.h */,
-				3B184E811F8481C6002C5204 /* movementControllerViewController.m */,
 				3BB1FE0A1F7C932A001224EA /* Supporting Files */,
 			);
 			path = "Citi-Tour";
@@ -345,7 +340,6 @@
 				3BB1FDCF1F7C83E4001224EA /* ViewController.m in Sources */,
 				3BB1FDDA1F7C83E4001224EA /* main.m in Sources */,
 				3BB1FDCC1F7C83E4001224EA /* AppDelegate.m in Sources */,
-				3B184E831F8481C6002C5204 /* movementControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
