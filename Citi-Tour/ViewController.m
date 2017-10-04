@@ -114,23 +114,8 @@ UIImageView *TourImage;
     [DRDouble sharedDouble].delegate = self;
     NSLog(@"SDL Version: %@", kDoubleBasicSDKVersion);
     
+    //_ConnectionStatus.text=@"ConnectionTest";
 }
-
-- (IBAction)poleup:(id)sender {
-}
-
-- (IBAction)polestop:(id)sender {
-}
-
-- (IBAction)poledown:(id)sender {
-}
-
-- (IBAction)park:(id)sender {
-}
-
-- (IBAction)deploy:(id)sender {
-}
-
 - (IBAction)FullTour:(id)sender {
 }
 
@@ -237,7 +222,7 @@ willSpeakRangeOfSpeechString:(NSRange)characterRange
     
     NSMutableAttributedString *mutableAttributedString = [[NSMutableAttributedString alloc] initWithString:self.utteranceString];
     [mutableAttributedString addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:characterRange];
-    self.Readtext.attributedText = mutableAttributedString;
+    //self.Readtext.attributedText = mutableAttributedString;
     self.Readingtext.attributedText = mutableAttributedString;
 }
 
@@ -246,7 +231,7 @@ willSpeakRangeOfSpeechString:(NSRange)characterRange
 {
     NSLog(@"%@ %@", [self class], NSStringFromSelector(_cmd));
     
-    self.Readtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
+    //self.Readtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
     self.Readingtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
 }
 
@@ -255,14 +240,75 @@ willSpeakRangeOfSpeechString:(NSRange)characterRange
 {
     NSLog(@"%@ %@", [self class], NSStringFromSelector(_cmd));
     
-    self.Readtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
+    //self.Readtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
     self.Readingtext.attributedText = [[NSAttributedString alloc] initWithString:self.utteranceString];
 }
 
+//movement
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)doubleDidConnect:(DRDouble *)theDouble {
+    _ConnectionStatus.text = @"Connected";
+}
+
+- (void)doubleDidDisconnect:(DRDouble *)theDouble {
+    _ConnectionStatus.text = @"Not Connected";
+}
+
+- (IBAction)poleup:(id)sender {
+    NSLog(@"poleup");
+    [[DRDouble sharedDouble] poleUp];
+}
+
+- (IBAction)polestop:(id)sender {
+    NSLog(@"polestop");
+    [[DRDouble sharedDouble] poleStop];
+    
+}
+
+- (IBAction)poledown:(id)sender {
+    NSLog(@"poledown");
+    [[DRDouble sharedDouble] poleDown];
+    
+}
+
+- (IBAction)park:(id)sender {
+    NSLog(@"park");
+    [[DRDouble sharedDouble] deployKickstands];
+}
+
+- (IBAction)deploy:(id)sender {
+    NSLog(@"deploy");
+    [[DRDouble sharedDouble] retractKickstands];
+}
+
+-(void)doubleStatusDidUpdate:(DRDouble *)theDouble{
+    NSLog(@"DoubleStatusDidUpdate");
+    //poleHeightPercentLabel.text = [NSString stringWithFormat:@"%.02f", [DRDouble sharedDouble].poleHeightPercent];
+    //kickstandStateLabel.text = [NSString stringWithFormat:@"%d", [DRDouble sharedDouble].kickstandState];
+    if([DRDouble sharedDouble].kickstandState == 1)
+    {
+        _ParkingStatus.text = @"Parked";
+    }
+    else if([DRDouble sharedDouble].kickstandState == 2)
+    {
+        _ParkingStatus.text = @"Deployed";
+    }
+    else if([DRDouble sharedDouble].kickstandState == 3)
+    {
+        _ParkingStatus.text = @"Parking";
+    }
+    else if([DRDouble sharedDouble].kickstandState == 4)
+    {
+        _ParkingStatus.text = @"Unparking";
+    }
+    
+    _BatteryPercent.text = [NSString stringWithFormat:@"%.2f", [DRDouble sharedDouble].batteryPercent];
+}
+
+- (void)doubleDriveShouldUpdate:(DRDouble *)theDouble {
+    float drive = (_DriveFrontButton.highlighted) ? kDRDriveDirectionForward : ((_DriveBackButton.highlighted) ? kDRDriveDirectionBackward : kDRDriveDirectionStop);
+    float turn = (_DriveRightButton.highlighted) ? 1.0 : ((_DriveLeftButton.highlighted) ? -1.0 : 0.0);
+    [theDouble drive:drive turn:turn];
 }
 
 
